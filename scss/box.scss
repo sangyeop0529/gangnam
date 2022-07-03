@@ -1,0 +1,101 @@
+/* box02 */
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#box02 {
+  background-color: #e8e8e8;
+
+  &>div {
+    width: 1115px;
+    margin: 0 auto;
+
+    .box {
+      position: relative;
+      padding-left: 429px;
+
+      figure {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 429px;
+      }
+
+      &>div {
+
+        p.text {
+          line-height: 30px;
+          margin-bottom: 45px;
+        }
+
+        p.btn {
+          text-align: right;
+          button {
+            width: 196px;
+            height: 53px;
+            background-color: #949494;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* box03 */
+#box03 {
+
+  &>div {
+    width: 1300px;
+    margin: 0 auto;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &>div {
+      width: 50%;
+
+      p.text {
+        line-height: 30px;
+        width: 493px;
+      }
+    }
+
+    ul {
+      width: 50%;
+
+      li {
+        width: 80px;
+        height: 80px;
+        border: 2px solid #cbcbcb;
+        margin: 0 8px;
+        margin-bottom: 16px;
+        float: left;
+        text-indent: -9999px;
+        background: url(../images/icon/html5.png) no-repeat center;
+
+        &:nth-child(1) {background-image: url(../images/icon/html5.png);}
+        &:nth-child(2) {background-image: url(../images/icon/css3.png);}
+        &:nth-child(3) {background-image: url(../images/icon/javascript.png);}
+        &:nth-child(4) {background-image: url(../images/icon/jquery.png);}
+        &:nth-child(5) {background-image: url(../images/icon/react.png);}
+        &:nth-child(6) {background-image: url(../images/icon/npm.png);}
+        &:nth-child(7) {background-image: url(../images/icon/git.png);}
+        &:nth-child(8) {background-image: url(../images/icon/bootstrap.png);}
+        &:nth-child(9) {background-image: url(../images/icon/vue.png);}
+        &:nth-child(10) {background-image: url(../images/icon/sass.png);}
+        &:nth-child(11) {background-image: url(../images/icon/adobe-xd.png);}
+        &:nth-child(12) {background-image: none}
+      }
+    }
+  }
+}
