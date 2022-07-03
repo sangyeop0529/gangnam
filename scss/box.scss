@@ -170,3 +170,109 @@
 }
 
 // box05
+#box05 {
+  background-color: #9c9c9c;
+  &>div {
+    width: 1113px;
+    margin: 0 auto;
+
+    h3 {
+      color: #fff;
+    }
+
+    .box {
+      position: relative;
+      padding-right: 480px;
+
+      &>div {
+        // jquery에서 해결ㄴ
+        height: 466px;
+
+        .title {
+          color: #fff;
+        }
+        .text {
+          line-height: 30px;
+          width: 446px;
+          color: #fff;
+        }
+      }
+
+      form {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 443px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+
+        ul {
+          li {
+            margin-bottom: 20px;
+            label {
+              display: block;
+            }
+            input {
+              width: 100%;
+              box-sizing: border-box;
+              line-height: 43px;
+              background-color: #eaeaea;
+              border: none;
+            }
+            
+            textarea {
+              width: 100%;
+              box-sizing: border-box;
+              height: 120px;
+              background-color: #eaeaea;
+              border: none;
+              resize: none;
+            }
+          }
+        }
+        .btn {
+          input {
+            width: 100%;
+            border: none;
+            background-color: #eaeaea;
+            line-height: 43px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//  aside
+aside {
+  .tap {
+    position: fixed;
+    bottom: 125px;
+    right: 22px;
+    width: 35px;
+    height: 35px;
+    line-height: 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: #fff;
+  }
+
+  ul.scroll {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+  }
+}
+
+// footer
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}

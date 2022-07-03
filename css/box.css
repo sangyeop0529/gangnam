@@ -165,3 +165,92 @@
 #box04 > div #gallery .next {
   display: none;
 }
+
+#box05 {
+  background-color: #9c9c9c;
+}
+#box05 > div {
+  width: 1113px;
+  margin: 0 auto;
+}
+#box05 > div h3 {
+  color: #fff;
+}
+#box05 > div .box {
+  position: relative;
+  padding-right: 480px;
+}
+#box05 > div .box > div {
+  height: 466px;
+}
+#box05 > div .box > div .title {
+  color: #fff;
+}
+#box05 > div .box > div .text {
+  line-height: 30px;
+  width: 446px;
+  color: #fff;
+}
+#box05 > div .box form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 443px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#box05 > div .box form ul li {
+  margin-bottom: 20px;
+}
+#box05 > div .box form ul li label {
+  display: block;
+}
+#box05 > div .box form ul li input {
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 43px;
+  background-color: #eaeaea;
+  border: none;
+}
+#box05 > div .box form ul li textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+  background-color: #eaeaea;
+  border: none;
+  resize: none;
+}
+#box05 > div .box form .btn input {
+  width: 100%;
+  border: none;
+  background-color: #eaeaea;
+  line-height: 43px;
+}
+
+aside .tap {
+  position: fixed;
+  bottom: 125px;
+  right: 22px;
+  width: 35px;
+  height: 35px;
+  line-height: 1;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: #fff;
+}
+aside ul.scroll {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+}
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
