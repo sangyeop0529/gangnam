@@ -1,0 +1,43 @@
+/* box02 */
+
+#box02 {
+  background-color: #e8e8e8;
+
+  &>div {
+    width: 1115px;
+    margin: 0 auto;
+
+    .box {
+      position: relative;
+      padding-left: 429px;
+
+      figure {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 429px;
+      }
+
+      &>div {
+
+        p.text {
+          line-height: 30px;
+          margin-bottom: 45px;
+        }
+
+        p.btn {
+          text-align: right;
+          button {
+            width: 196px;
+            height: 53px;
+            background-color: #949494;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 26px;
+          }
+        }
+      }
+    }
+  }
+}
