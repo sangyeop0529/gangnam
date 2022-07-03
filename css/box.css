@@ -105,3 +105,63 @@
 #box03 .box ul li:nth-child(12) {
   background-image: none;
 }
+
+#box04 {
+  background-color: #c3c3c3;
+  text-align: center;
+}
+#box04 > div h3 {
+  color: #fff;
+}
+#box04 > div p.title {
+  color: #fff;
+}
+#box04 > div p.text {
+  width: 60%;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  color: #fff;
+}
+#box04 > div ul {
+  margin-bottom: 40px;
+}
+#box04 > div ul li {
+  display: inline-block;
+  padding: 0 20px;
+  border-left: 1px solid #fff;
+}
+#box04 > div ul li a {
+  color: #fff;
+}
+#box04 > div ul li:first-child {
+  border-left: none;
+}
+#box04 > div #gallery {
+  width: 1300px;
+  margin: 0 auto;
+}
+#box04 > div #gallery #all {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#box04 > div #gallery #all figure {
+  width: calc(33% - 46px);
+  margin-bottom: 46px;
+  color: #fff;
+}
+#box04 > div #gallery #all figure img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 23px;
+}
+#box04 > div #gallery #all figure figcaption {
+  margin-top: 18px;
+}
+#box04 > div #gallery .prev {
+  display: none;
+}
+#box04 > div #gallery .next {
+  display: none;
+}
